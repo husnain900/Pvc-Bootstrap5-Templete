@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GAMEONFIRE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Assets/Style/responsive.css" />
+    <link rel="stylesheet" href="./Assets/Style/Stylesheet.css" />
+  </head>
+
+  <body>
+    <!-- Top Nav  -->
+    <div class="container">
+      <nav class="top-nav d-none d-md-block d-lg-block">
+        <div class="d-flex justify-content-between">
+          <div class="d-flex gap-12 text-a">
+            <p>
+              <img src="Assets/Images/Top-Nav/image 1.svg" alt srcset />
+              ACTIVITY & LADDER PVP
+            </p>
+            |
+            <p>
+              <img src="Assets/Images/Top-Nav/image 2.svg" alt srcset />
+              RUMBLE
+            </p>
+            |
+            <p>
+              <img src="Assets/Images/Top-Nav/image 3.svg" alt srcset />
+              CATA CLASSIC
+            </p>
+            |
+            <p>
+              <img src="Assets/Images/Top-Nav/image 4.svg" alt srcset />
+              SOD
+            </p>
+          </div>
+
+          <div class="d-flex gap-12">
+            <img src="Assets/Images/Top-Nav/Vector (1).svg" alt srcset />
+            <img src="Assets/Images/Top-Nav/Vector (2).svg" alt srcset />
+            <img src="Assets/Images/Top-Nav/Vector (4).svg" alt srcset />
+            <img src="Assets/Images/Top-Nav/Vector (5).svg" alt srcset />
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--  -->
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg bg-darkgrey">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/"
+          ><img
+            src="Assets/Images/Nav/FullLogo_Transparent_NoBuffer_3 1.svg"
+            alt
+            srcset
+        /></a>
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="22"
+            viewBox="0 0 24 22"
+            fill="none"
+          >
+            <path
+              d="M0 0.333374H24V3.00004H0V0.333374ZM0 9.66671H24V12.3334H0V9.66671ZM0 19H24V21.6667H0V19Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-a" href="/">2V2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-a" href="/">2V2 ACTIVITY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-a" href="/">3V3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-a" href="/">3V3 ACTIVITY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-a" href="/">SOLO SHUFFLE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-a" href="/">SOLO SHUFFLE ACTIVITY</a>
+            </li>
+            <button class="btn btn-danger d-block d-md-block d-lg-none">
+              <img class="pb-1" src="/Assets/Images/Nav/Vector (1).svg" alt />
+              3669
+            </button>
+          </ul>
+        </div>
+        <button class="btn btn-danger d-none d-md-none d-lg-block">
+          <img class="pb-1" src="/Assets/Images/Nav/Vector (1).svg" alt />
+          3669
+        </button>
+      </div>
+    </nav>
+    <!--  -->
+    <!-- Bannar  -->
+    <section class="bannar">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="left-content"></div>
+            <form
+              class="form-a bg-darkgrey border-grey d-flex align-items-center gap-2 justify-content-center mb-3"
+              action
+            >
+              <label class="text-a d-none d-md-block d-lg-block" for
+                >Search Profile</label
+              >
+              <input
+                class="bg-darkgrey"
+                placeholder="Search Any Player..."
+                type="text"
+              />
+              <button class="btn btn-danger d-none d-md-block d-lg-block">
+                Search
+              </button>
+              <button class="btn btn-danger d-block d-md-none d-lg-none">
+                <img src="Assets/Images/search-2-line.svg" alt="" />
+              </button>
+            </form>
+            <div
+              class="border-grey box bg-darkgrey d-none d-md-none d-lg-block"
+            ></div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="right-content">
+              <div class="row d-none d-md-block d-lg-block">
+                <h2>LEADERSBOARD</h2>
+                <div class="col-12">
+                  <div
+                    class="group-btn border-grey p-2 d-flex justify-content-between"
+                    role="group"
+                    aria-label="Basic example"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-outline-danger bg-darkgrey btn-custom"
+                      id="tab1"
+                      onclick="changeTab('tab1')"
+                    >
+                      2V2
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-outline-danger bg-darkgrey"
+                      id="tab2"
+                      onclick="changeTab('tab2')"
+                    >
+                      3V3
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-outline-danger bg-darkgrey"
+                      id="tab3"
+                      onclick="changeTab('tab3')"
+                    >
+                      SOLO SHUFFLE
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-12">
+                  <div class="tab-content">
+                    <div class="tab-pane fade show active" id="content1">
+                      <table class="table text-a">
+                        <thead class="bg-darkgrey border-grey">
+                          <tr class="bg-darkgrey">
+                            <th scope="col">RANK</th>
+                            <th scope="col">RATING</th>
+                            <th scope="col">PLAYER</th>
+                            <th scope="col">CLASS</th>
+                            <th scope="col">SPEC</th>
+                            <th scope="col">FACTION</th>
+                            <th scope="col">REGION</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane fade" id="content2">
+                      <table class="table text-a">
+                        <thead class="bg-darkgrey border-grey">
+                          <tr class="bg-darkgrey">
+                            <th scope="col">RANK</th>
+                            <th scope="col">RATING</th>
+                            <th scope="col">PLAYER</th>
+                            <th scope="col">CLASS</th>
+                            <th scope="col">SPEC</th>
+                            <th scope="col">FACTION</th>
+                            <th scope="col">REGION</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane fade" id="content3">
+                      <table class="table text-a">
+                        <thead class="bg-darkgrey border-grey">
+                          <tr class="bg-darkgrey">
+                            <th scope="col">RANK</th>
+                            <th scope="col">RATING</th>
+                            <th scope="col">PLAYER</th>
+                            <th scope="col">CLASS</th>
+                            <th scope="col">SPEC</th>
+                            <th scope="col">FACTION</th>
+                            <th scope="col">REGION</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img src="Assets/Images/Bannar/image 5.svg" alt />
+                              2353
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 70.svg"
+                                alt
+                              />
+                              Dioue
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Rectangle 69.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 168.svg"
+                                alt
+                              />
+                            </td>
+                            <td>
+                              <img
+                                src="Assets/Images/Bannar/Group 176.svg"
+                                alt
+                              />
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center my-4">
+                <button class="btn btn-danger">SEE MORE STANDINGS</button>
+              </div>
+              <div class="w-100 mt-3 position-relative">
+                <a href="/">
+                  <img
+                    class="w-100"
+                    src="Assets/Images/Bannar/Rectangle 65.png"
+                    alt=""
+                  />
+                  <img
+                    class="position-absolute top-50 start-50 translate-middle"
+                    src="Assets/Images/Group 140.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <!-- text box  -->
+    <section class="text-box">
+      <div class="bg-darkgrey border-grey container">
+        <h3>Welcome to GAMEONFIRE PVP!</h3>
+        <p class="py-3">
+          GAMEONFIRE is a website that was created in order to help the
+          community. It was launched during Legion with a strong motivation to
+          assist PvP players. In fact, its main purpose is to allow WoW players
+          to find the right partners and enjoy 2v2 and 3v3 ranked arena gameplay
+          together. World of Warcraft has been out for a very long time, and
+          many players have earned different ratings and rewards across the
+          years in player versus player. As a result, Check-PvP helps players
+          analyze and have a very quick look at one player's rating.
+        </p>
+        <p class="">
+          Its very intuitive search mechanic and filter allows you to look up a
+          player and see his highest rating ever obtained, and the current
+          rating he is sitting in 2v2 and 3v3. This tool is a solution to the
+          Looking for Group feature in World of Warcraft, that has been proved
+          of being rather lackluster. In game, in fact, you are not able to see
+          a player's rating and his higher rating. This creates unneeded
+          frustration and forces you to look up the player's armory, which often
+          bugs out as it does not show the current real rating at which the
+          player is sitting.
+        </p>
+      </div>
+    </section>
+    <!--  -->
+    <!-- twiter community  -->
+    <section class="twitter-com">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-6 p-0 m-0">
+            <img src="Assets/Images/Rectangle 54.png" alt="" />
+          </div>
+          <div class="col-12 col-md-12 col-lg-6 bg-darkgrey">
+            <div class="right-content">
+              <div>
+                <h3>
+                  <span style="color: #d51616">GAME</span>ON<span
+                    style="color: #fcee21"
+                    >FIRE</span
+                  >: PVP ACTIVITY AND LADDER
+                </h3>
+                <p class="mb-4">
+                  Greetings! I'm Riplock, and Gameonfire is your ultimate
+                  destination for WoW PvP wisdom and my enchanted creation.
+                  Explore Leaderboard stats, find allies, and stay updated on
+                  Twitter. See you there!
+                </p>
+                <h2>BEAUTIFUL LANDING PAGE WITH ELEMENTS</h2>
+                <p class="mb-4">
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia.It is a paradisematic country,
+                  in which
+                </p>
+                <button class="btn btn-danger">TWITTER COMMUNITY</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="down-footer bg-darkgrey text-a">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 col-lg-10 align-items-center">
+            <div class="d-flex flex-wrap gap-11 align-items-center">
+              <img src="Assets/Images/Footer/Ellipse 1.svg" alt="" />
+              <p class="m-0">COPYRIGHT © 2023 GAMEONFIRE</p>
+              |
+              <p class="m-0">ABOUT US</p>
+              |
+              <p class="m-0">CONTACT</p>
+              |
+              <p class="m-0">TERMS & CONDITIONS</p>
+              |
+              <p class="m-0">PRIVACY POLICY</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2">
+            <div class="d-flex gap-11 justify-content-end pt-3">
+              <img src="Assets/Images/Top-Nav/Vector (1).svg" alt srcset />
+              <img src="Assets/Images/Top-Nav/Vector (2).svg" alt srcset />
+              <img src="Assets/Images/Top-Nav/Vector (4).svg" alt srcset />
+              <img src="Assets/Images/Top-Nav/Vector (5).svg" alt srcset />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--  -->
+    <script src="Assets/JS/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,217 @@
+/* font family  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    background: hsl(0, 0%, 6%);
+    font-family: Poppins;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.gap-11 {
+    gap: 11px;
+}
+
+/* -- */
+.top-nav {
+    padding: 10px 0;
+}
+
+/* --- */
+
+.top-nav P {
+    margin: 0;
+}
+
+.navbar {
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+}
+
+.navbar button {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.nav-link:focus, .nav-link:hover {
+    color: gray !important;
+}
+.text-a {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn-danger {
+    padding: 5px 24px;
+    height: 40px;
+    border-radius: 4px;
+    background: #D51616;
+}
+
+/* bannar */
+.bannar {
+    margin: 32px 0 120px;
+}
+
+.border-grey {
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+.form-a {
+    height: 64px;
+    padding: 12px 16px;
+}
+
+.form-a label {
+    width: 35%;
+}
+
+.form-a input {
+    border-radius: 4px;
+    border: 2px solid #D51616;
+    width: 100%;
+    height: 40px;
+    padding: 9px;
+    color: #A1A1A1;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box {
+    height: 946px;
+}
+
+.bg-darkgrey {
+    background: #202020 !important;
+}
+
+.bg-jetgrey {
+    background: #181818;
+}
+
+/* right-content  */
+
+.right-content h2 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-outline-danger {
+    width: 160px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px solid #444;
+}
+
+.btn-custom {
+    background-color: #D51616 !important;
+    border: none;
+}
+
+.title {
+    height: 53px;
+    padding: 8px 16px 16px !important;
+}
+
+.right-content tr {
+    border-radius: 8px;
+}
+
+tr:nth-child(odd) {
+    background: #181818;
+}
+
+tr:nth-child(even) {
+    background: #202020;
+}
+
+.right-content th, td {
+    border: none;
+}
+
+
+/* --- */
+
+
+/*  */
+.text-box div {
+    padding: 36px 40px;
+    margin-bottom: 120px;
+}
+
+.text-box h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text-box p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+/* -- */
+
+/* twiter comunity */
+
+.twitter-com img {
+    width: 100%;
+    height: auto;
+}
+
+.twitter-com h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.twitter-com p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.twitter-com h2 {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.twitter-com .right-content {
+    width: 520px;
+    margin: 113px auto 112px;
+}
+/* -- */
+.down-footer {
+    height: 100px;
+    padding: 20px 0;
+}
